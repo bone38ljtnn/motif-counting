@@ -30,6 +30,9 @@ omega: Omega value for the analysis.
 This command runs the program with the datasets.txt file, enables threading with 32 threads, and sets delta to 3600 and omega to 4.
 
 
+### output :
+
+The output results are represented using a 6$\times$6 matrix to display the counts of all temporal motif instances. In the provided 6$\times$6 matrix, the first four columns represent the counts of all Star temporal motif instances. In the last two columns, the first four rows indicate the counts of Triangle temporal motif instances, and the last two rows represent the counts of Pair temporal motif instances.
 
 
 
